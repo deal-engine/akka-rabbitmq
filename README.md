@@ -21,8 +21,7 @@ It gives you two actors `ConnectionActor` and `ChannelActor`.
 Please note that while this library transparently reconnects when a connection fails, it **cannot guarantee** that no
 messages will be lost. If you want to make sure every message is delivered, you have to use acknowledgements
 and confirms. This is documented
-[in the RabbitMQ Reliability Guide](https://www.rabbitmq.com/reliability.html#connection-failures). An example program
-using confirms can be found in this project under [ConfirmsExample.scala](https://github.com/NewMotion/akka-rabbitmq/blob/master/src/test/scala/akka/rabbitmq/examples/ConfirmsExample.scala).
+[in the RabbitMQ Reliability Guide](https://www.rabbitmq.com/reliability.html#connection-failures).
 
 ## Setup
 
