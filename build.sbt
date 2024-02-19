@@ -41,8 +41,6 @@ Test / unmanagedSourceDirectories ++= {
   }
 }
 
-Format.settings
-
 developers := List(
   Developer(id="sbmpost", name="Stefan Post", email="", url=url("https://github.com/sbmpost")),
   Developer(id="gertjana", name="Gertjan Assies", email="", url=url("https://github.com/gertjana")),
